@@ -1,0 +1,7 @@
+stabilization/
+__pycache__/
+clean-video-only.mp4
+render.log
+audio-filter.txt
+*.manifest.json
+*.mp4

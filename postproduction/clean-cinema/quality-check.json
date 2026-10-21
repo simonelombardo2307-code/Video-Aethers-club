@@ -1,0 +1,56 @@
+{
+  "frames": 624,
+  "max_frame_rgb_mean": 153.73782674921384,
+  "minimum_edge_row_max": 132,
+  "no_full_white_frames": true,
+  "no_full_black_edge_rows": true,
+  "lut_validation": {
+    "mean_absolute_error_levels_255": 0.5302574685534591,
+    "p99_error": 1.0,
+    "max_error": 1.0
+  },
+  "visual_review_frames": [
+    12,
+    88,
+    89,
+    126,
+    163,
+    164,
+    228,
+    306,
+    372,
+    444,
+    480,
+    600
+  ],
+  "known_artifact_frames_visual_review": "passed after independent pre-encode/decoded comparisons at frames 163,306,444",
+  "known_artifact_frame_validation": [
+    {
+      "timeline_frame": 163,
+      "source_frame": 237,
+      "mae_rgb_codes": 2.0702797431865827,
+      "p95_abs_codes": 5.0,
+      "pct_pixels_any_channel_error_gt20": 0.005159198113207548
+    },
+    {
+      "timeline_frame": 306,
+      "source_frame": 380,
+      "mae_rgb_codes": 1.951067053197065,
+      "p95_abs_codes": 5.0,
+      "pct_pixels_any_channel_error_gt20": 0.011301100628930819
+    },
+    {
+      "timeline_frame": 444,
+      "source_frame": 518,
+      "mae_rgb_codes": 1.9916642099056603,
+      "p95_abs_codes": 5.0,
+      "pct_pixels_any_channel_error_gt20": 0.013757861635220126
+    }
+  ],
+  "manual_visual_review": "passed on 12 sampled frames including all five seams and formerly affected moments",
+  "audio_levels": [
+    "[Parsed_volumedetect_0 @ 0x7f0924002400] mean_volume: -21.0 dB",
+    "[Parsed_volumedetect_0 @ 0x7f0924002400] max_volume: -1.2 dB"
+  ],
+  "faststart": true
+}

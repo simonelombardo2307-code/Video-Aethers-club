@@ -1,0 +1,198 @@
+{
+  "revision": 3,
+  "name": "Aethers Clean Natural Cinema",
+  "reference": {
+    "file": "WhatsApp Video 2026-10-20 at 22.09.58.mp4",
+    "range_seconds": [
+      9.926667,
+      29.821667
+    ],
+    "description": "Seconda parte del primo video: panchina, felpa grigia, capo bianco e uscita al cancello."
+  },
+  "timeline": {
+    "fps": 24,
+    "duration_frames": 624,
+    "duration_seconds": 26,
+    "width": 848,
+    "height": 480
+  },
+  "clips": [
+    {
+      "id": "C01",
+      "timeline_in_frame": 0,
+      "timeline_out_frame_exclusive": 89,
+      "timeline_in_tc": "00:00:00:00",
+      "timeline_out_tc": "00:00:03:17",
+      "source_in_frame": 0,
+      "source_out_frame_exclusive": 118,
+      "source_in_seconds": 0.0,
+      "source_out_seconds": 4.921667,
+      "playback_rate": 1.3271911011235955,
+      "action": "Presentazione, corsa del protagonista e inseguitore: prima ripresa continua.",
+      "transition": "hard_cut",
+      "scale": 1.0
+    },
+    {
+      "id": "C02",
+      "timeline_in_frame": 89,
+      "timeline_out_frame_exclusive": 105,
+      "timeline_in_tc": "00:00:03:17",
+      "timeline_out_tc": "00:00:04:09",
+      "source_in_frame": 118,
+      "source_out_frame_exclusive": 138,
+      "source_in_seconds": 4.921667,
+      "source_out_seconds": 5.755,
+      "playback_rate": 1.2499994999999995,
+      "action": "Secondo angolo: passa il protagonista.",
+      "transition": "hard_cut",
+      "scale": 1.0
+    },
+    {
+      "id": "C03",
+      "timeline_in_frame": 105,
+      "timeline_out_frame_exclusive": 126,
+      "timeline_in_tc": "00:00:04:09",
+      "timeline_out_tc": "00:00:05:06",
+      "source_in_frame": 174,
+      "source_out_frame_exclusive": 200,
+      "source_in_seconds": 7.256667,
+      "source_out_seconds": 8.341667,
+      "playback_rate": 1.2399999999999989,
+      "action": "Secondo angolo: passa l’inseguitore, tolta l’attesa vuota.",
+      "transition": "hard_cut",
+      "scale": 1.0
+    },
+    {
+      "id": "C04",
+      "timeline_in_frame": 126,
+      "timeline_out_frame_exclusive": 164,
+      "timeline_in_tc": "00:00:05:06",
+      "timeline_out_tc": "00:00:06:20",
+      "source_in_frame": 200,
+      "source_out_frame_exclusive": 238,
+      "source_in_seconds": 8.341667,
+      "source_out_seconds": 9.926667,
+      "playback_rate": 1.0010526315789479,
+      "action": "Approccio e scavalcamento del muro, lato esterno.",
+      "transition": "hard_cut",
+      "scale": 1.0
+    },
+    {
+      "id": "C05",
+      "timeline_in_frame": 164,
+      "timeline_out_frame_exclusive": 467,
+      "timeline_in_tc": "00:00:06:20",
+      "timeline_out_tc": "00:00:19:11",
+      "source_in_frame": 238,
+      "source_out_frame_exclusive": 541,
+      "source_in_seconds": 9.926667,
+      "source_out_seconds": 22.565,
+      "playback_rate": 1.0010560792079208,
+      "action": "Discesa e atterraggio; intero cambio alla panchina in una sola ripresa.",
+      "transition": "hard_cut",
+      "scale": 1.0
+    },
+    {
+      "id": "C06",
+      "timeline_in_frame": 467,
+      "timeline_out_frame_exclusive": 624,
+      "timeline_in_tc": "00:00:19:11",
+      "timeline_out_tc": "00:00:26:00",
+      "source_in_frame": 558,
+      "source_out_frame_exclusive": 715,
+      "source_in_seconds": 23.273333,
+      "source_out_seconds": 29.821667,
+      "playback_rate": 1.0010192101910829,
+      "action": "Nuovo look al cancello; passa l’inseguitore, poi camminata finale.",
+      "transition": "hard_cut",
+      "scale": 1.0
+    }
+  ],
+  "transitions": [],
+  "overlays": [],
+  "punch_zooms": false,
+  "flash": false,
+  "synthetic_whips": false,
+  "music_grid_required": false,
+  "color": {
+    "input": "Rec.709 SDR, footage already encoded as Rec.709",
+    "display_reference": "Rec.709 gamma 2.4",
+    "output_tags": "bt709, limited-range YUV",
+    "look_lut": "Aethers_Clean_Natural_Rec709.cube",
+    "lut_size": 33,
+    "lut_strength": 1.0,
+    "black_point_lift": 0.0,
+    "shadow_tint": "neutral",
+    "grain_monochrome_sigma": 0.0025,
+    "grain_actual_rms_target_8bit": [
+      0.4,
+      0.7
+    ],
+    "waveform_targets_ire": {
+      "meaningful_blacks": [
+        2,
+        5
+      ],
+      "diffuse_shirt_whites": [
+        80,
+        90
+      ],
+      "bright_reflections_max": 95
+    },
+    "curve_input": [
+      0,
+      0.025,
+      0.06,
+      0.12,
+      0.22,
+      0.4,
+      0.58,
+      0.76,
+      0.88,
+      0.95,
+      1.0
+    ],
+    "curve_output": [
+      0,
+      0.012,
+      0.038,
+      0.085,
+      0.175,
+      0.35,
+      0.56,
+      0.75,
+      0.87,
+      0.935,
+      0.97
+    ]
+  },
+  "stabilization": {
+    "scope": "separate original camera shots",
+    "method": "vidstab restricted translation and rotation",
+    "smoothing": 4,
+    "window_frames": 9,
+    "max_shift_px": 2,
+    "max_angle_rad": 0.0015,
+    "constant_zoom_percent": 2,
+    "auto_zoom": false,
+    "perspective_warp": false,
+    "artificial_camera_motion": false,
+    "processing_pixel_format": "yuv444p before stabilization, RGB for grading"
+  },
+  "detail": {
+    "denoise": "hqdn3d=0.35:0.6:0.5:0.7",
+    "sharpen": "unsharp=3:3:0.12:3:3:0",
+    "upscale": false
+  },
+  "export": {
+    "container": "mp4",
+    "video_codec": "libx264",
+    "preset": "slow",
+    "crf": 16,
+    "pixel_format": "yuv420p",
+    "audio_codec": "aac",
+    "audio_sample_rate": 48000,
+    "audio_bitrate": "192k",
+    "faststart": true
+  }
+}

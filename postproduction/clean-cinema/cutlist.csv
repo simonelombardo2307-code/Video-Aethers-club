@@ -1,0 +1,7 @@
+id,timeline_in_frame,timeline_out_frame_exclusive,timeline_in_tc,timeline_out_tc,source_in_frame,source_out_frame_exclusive,source_in_seconds,source_out_seconds,playback_rate,action,transition,scale
+C01,0,89,00:00:00:00,00:00:03:17,0,118,0.0,4.921667,1.3271911011235955,"Presentazione, corsa del protagonista e inseguitore: prima ripresa continua.",hard_cut,1.0
+C02,89,105,00:00:03:17,00:00:04:09,118,138,4.921667,5.755,1.2499994999999995,Secondo angolo: passa il protagonista.,hard_cut,1.0
+C03,105,126,00:00:04:09,00:00:05:06,174,200,7.256667,8.341667,1.2399999999999989,"Secondo angolo: passa l’inseguitore, tolta l’attesa vuota.",hard_cut,1.0
+C04,126,164,00:00:05:06,00:00:06:20,200,238,8.341667,9.926667,1.0010526315789479,"Approccio e scavalcamento del muro, lato esterno.",hard_cut,1.0
+C05,164,467,00:00:06:20,00:00:19:11,238,541,9.926667,22.565,1.0010560792079208,Discesa e atterraggio; intero cambio alla panchina in una sola ripresa.,hard_cut,1.0
+C06,467,624,00:00:19:11,00:00:26:00,558,715,23.273333,29.821667,1.0010192101910829,"Nuovo look al cancello; passa l’inseguitore, poi camminata finale.",hard_cut,1.0
